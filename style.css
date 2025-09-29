@@ -1,0 +1,118 @@
+html {
+  background-image: url(https://raw.githubusercontent.com/gitl0ver/clothingshopwebsite/refs/heads/main/backgroundimage2.png);
+  background-size: 15em;
+  font-family: sans-serif;
+}
+.header {
+  background-image: linear-gradient(white, rgb(220, 220, 220));
+  border-radius: 2em;
+  box-shadow: inset 0em -0.1em 1.5em rgba(0, 0, 0, 0.75), 0em 0.25em 1em rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.75);
+  margin: auto;
+  margin-bottom: em;
+  padding: 0.2em;
+}
+nav {
+/*This is the basic layou that establishes the size, position and spacing of the menu elements.*/
+  display: block;  
+  float:left;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  text-align: center;
+  width: 8em;
+}
+main {
+  color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  font-size: 1.1em;
+  justify-content: space-evenly;
+  margin: 1em;
+  text-shadow: 0em 0em 0.5em white; 
+}
+form {
+  line-height:1.75em;
+}
+a {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+}
+a:link {
+  background-clip: padding-box;
+  background-image: linear-gradient(white, rgb(220, 220, 220));
+  border: 5px solid transparent;
+  border-radius: 1em;
+  box-shadow: inset 0em -0.1em .5em rgba(0, 0, 0, 0.75);
+  display:block;
+  transition: font-size 0.1s, border-color 0.1s linear, border-radius 0.1s linear, box-shadow 0.1s linear;
+
+}
+a:hover {
+  /*When hovered over, a turquoise outline fades in and the text grows slightly larger*/
+  border: 5px solid rgb(49, 190, 239);
+  border-radius: 0.75em;
+  box-shadow: inset 0em -0.1em .5em rgba(0, 0, 0, 0.75);
+  font-size:1.20em;
+  transition: font-size 0.2s, border-color 0.2s linear, border-radius 0.2s linear;
+}
+a:active {
+  /*When clicked on, the inside of the button glows blue*/
+  background-image: linear-gradient(white, rgb(200, 220, 220));
+  box-shadow: inset 0em -0.1em .5em rgba(0, 100, 100, 0.75);
+}
+a:visited {
+  /*When a link has been visited, the inside of the button glows yellow*/
+  background-image: linear-gradient(rgb(255, 255, 190), rgb(200, 220, 0));
+  box-shadow: inset 0em -0.1em .5em rgba(0, 100, 100, 0.75);
+}
+h1 {
+  font-size: 3em;
+  line-height: 0em;
+  margin-top: 1em;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.border {
+  background-image: url(https://github.com/gitl0ver/clothingshopwebsite/blob/main/background1.png?raw=true);
+  background-size: 1em;
+  border: 5px solid rgb(49, 190, 239);
+  border-radius: 3.5em;
+  box-shadow: inset 0em 0.25em 1.5em rgba(0, 0, 0, 0.5), 0px 0px 2em rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 1.5em;
+}
+.imageContainer {
+  /*This is where I put the images and established their position and spacing.*/
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 1em;
+}
+img{
+    /*This is where I put the various image effects like the borders, rounded corners, shadows etc.*/
+  border: 5px solid rgb(49, 190, 239);
+  border-radius: 1em;
+  box-shadow: 0em 0.25em 1em rgba(0, 0, 0, 0.5);
+  height: 23em;
+}
+table {
+  /*This is the styling code for the table, just to make it look a little nicer.*/
+  background-image: linear-gradient(white, rgb(220, 220, 220));
+  box-shadow: inset 0em -0.1em 0.5em rgba(0, 0, 0, 0.75), 0em 0.25em 1em rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+  font-size: 1.2em;
+  padding: 0.5em;
+  text-align: center;
+}
+th, td {
+  /*I added a few more features in here since I wanted the inside to look different.*/
+  border: 1px solid;
+  border-radius: 0.75em;
+  padding: 0.3em;
+  text-align: center;
+}
+#footer {
+  color: white;
+  text-align: center;
+  text-shadow: 0em 0.075em 0.5em black;
+}
